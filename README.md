@@ -1,37 +1,62 @@
-# Pixelmensch – Portfolio
+# Portfolio – Marc Kommer (Pixelmensch)
 
-Willkommen auf meinem GitHub.  
-Ich bin Marc Kommer, Webdesigner und Website Manager mit Fokus auf:
-
-- HTML & CSS
-- Content-Pflege und Website-Aktualisierung
-- Landingpages & Firmenwebseiten
-- WYSIWYG-Editoren & CMS
-- kleine Layoutanpassungen
-- strukturierte, ruhige Arbeitsweise
-
-## Ausgewählte Projekte
-
-### Bistro Aurora – Landingpage
-
-Mehrseitige Gastro-Website mit Startseite, Speisekarte und Kontakt.
-**Live:** [\[Link\] ](https://pixel-mensch.github.io/bistro-aurora/)
-**Code:** [/bistro-aurora/](https://github.com/Pixel-Mensch/bistro-aurora)
-
-### Lüftungsbau Meier – Firmenwebsite
-
-Moderne einseitige Firmenwebsite mit klarer Struktur und Fokus auf Leistungen.
-**Live:** [\[Link\] ](https://github.com/Pixel-Mensch/lueftungsbau)
-**Code:** [/lueftungsbau/](https://github.com/Pixel-Mensch/lueftungsbau)
-
-### Marketplace Content Demo
-
-Stammdaten, Preislisten, Produktinfos, strukturierte Blöcke.  
-**Code:** /marketplace-demo/
+Dies ist mein persönliches Portfolio als Webdesigner und Website Manager.  
+Die Seite stellt meine Arbeitsweise, meine Projekte und meine Schwerpunkte im Bereich  
+Website-Pflege, Webdesign und Content Management vor.
 
 ---
 
-## Kontakt
+## 🚀 Über die Portfolio-Seite
+
+- Mobile-first umgesetzt mit HTML & CSS
+- Klare Struktur, übersichtliche Navigation
+- Fokus auf Lesbarkeit und saubere Gestaltung
+- Ideale Grundlage für Bewerbungen im Bereich Website-Management und Content-Pflege
+
+---
+
+## 📁 Projekte
+
+### **Bistro Aurora**
+
+Moderne Gastronomie-Landingpage im One-Page-Stil.  
+Klare Abschnitte, dezentes Design, mobile Optimierung.  
+👉 _Live:_ https://pixel-mensch.github.io/bistro-aurora/  
+👉 _Code:_ https://github.com/Pixel-Mensch/bistro-aurora
+
+---
+
+### **Physiovital**
+
+Moderne einseitige Praxis-Website mit klarer Struktur und Fokus auf Leistungen.  
+Ideal als Beispiel für kleine Unternehmen im Gesundheitsbereich.  
+👉 _Live:_ https://pixel-mensch.github.io/physiovital/  
+👉 _Code:_ https://github.com/Pixel-Mensch/physiovital
+
+---
+
+### **Lüftungsbau Meier**
+
+Moderne einseitige Firmenwebsite mit übersichtlicher Darstellung der wichtigsten Leistungen.  
+Klarer, handwerksorientierter One-Pager für kleine Service- und Handwerksbetriebe.  
+👉 _Live:_ https://pixel-mensch.github.io/lueftungsbau-meier/  
+👉 _Code:_ https://github.com/Pixel-Mensch/lueftungsbau-meier
+
+---
+
+## 🔧 Technologien & Arbeitsweise
+
+- **HTML5 & CSS3** (mobile-first)
+- **Strukturierte Content-Pflege**
+- **WYSIWYG-Editoren** & grundlegende CMS-Erfahrung
+- **Saubere, ruhige Arbeitsweise**
+- **Git & GitHub**
+
+---
+
+## 📬 Kontakt
 
 📧 pixelmensch@mail.de  
 📞 0156 7973 5298
+
+Danke fürs Vorbeischauen!
