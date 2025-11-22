@@ -13,10 +13,9 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Hauptseite wird in einen Wrapper gepackt -->
     <div class="page">
-      <!-- Navigation / Kopfbereich -->
-      <header class="site-header">
+      <!-- HEADER -->
+      <header class="site-header" id="site-header">
         <div class="logo">
           <span class="logo-mark">MK</span>
           <div class="logo-text">
@@ -29,12 +28,14 @@
           <a href="#about">Über mich</a>
           <a href="#projects">Projekte</a>
           <a href="#skills">Fähigkeiten</a>
+          <a href="#tools">Tools</a>
+          <a href="#education">Ausbildung</a>
           <a href="#contact">Kontakt</a>
         </nav>
       </header>
 
-      <!-- Hero / Einstieg -->
-      <section class="hero">
+      <!-- HERO -->
+      <section class="hero reveal">
         <div class="hero-inner">
           <div class="hero-text">
             <h1>
@@ -45,6 +46,7 @@
               Produktinformationen. Fokus auf klare Strukturen, sauberen
               HTML/CSS-Code und zuverlässige Content-Pflege.
             </p>
+
             <div class="hero-actions">
               <a href="#contact" class="btn primary">Kontakt aufnehmen</a>
               <a href="#projects" class="btn ghost">Projekte ansehen</a>
@@ -60,120 +62,107 @@
         </div>
       </section>
 
-      <!-- Über mich -->
-      <section id="about" class="section">
+      <!-- ÜBER MICH -->
+      <section id="about" class="section reveal">
         <h2>Über mich</h2>
         <p>
           Ich bin Marc Kommer, Webdesigner und Website Manager mit Fokus auf
           klaren Strukturen, sauber gepflegten Inhalten und zuverlässiger
-          Betreuung von Unternehmens-Websites. Ich arbeite ruhig, sorgfältig und
-          strukturiert, ideal für Aufgaben wie Content-Pflege,
-          Stammdatenverwaltung, kleine Layout-Anpassungen oder die regelmäßige
-          Aktualisierung von Texten, Bildern und Produktinformationen. Ich habe
-          eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung und
-          arbeite bevorzugt in Bereichen, in denen Websites stabil, aktuell und
-          professionell gehalten werden müssen. Mein Ziel ist es, Unternehmen
-          spürbar zu entlasten, indem ich mich um ihren Online-Auftritt kümmere,
-          damit sie ihren Alltag leichter managen können.
+          Betreuung von Unternehmens-Websites. Ich arbeite sorgfältig und
+          strukturiert, ideal für Content-Pflege, Stammdatenverwaltung und
+          regelmäßige Aktualisierungen.
         </p>
+
+        <!-- PERSÖNLICHKEITSKARTE -->
+        <div class="personal-card reveal">
+          <img
+            src="Bilder/SONNENBRILLE.jpg"
+            alt="Marc Kommer – Persönliches Foto"
+            class="personal-photo"
+          />
+
+          <div class="personal-text">
+            <h3>Mal ein bisschen Persönlicher...</h3>
+            <p>
+              Ich bin ein humorvoller, technikbegeisterter Mensch, der gern
+              redet, manchmal etwas zu viel, und bei Musik einen sehr eigenen
+              Geschmack hat. Gaming, digitale Tools und kleine Projekte gehören
+              zu meinem Alltag. Ich wäre theoretisch der Typ, der gern reist –
+              praktisch bleibe ich bisher eher in virtuellen Welten. Mal ruhig,
+              mal energiegeladen, aber immer ehrlich und direkt.
+            </p>
+          </div>
+        </div>
       </section>
 
-      <!-- Warum ich? -->
-      <section class="section">
-        <h2>Warum Sie mich einstellen sollten</h2>
-        <p>
-          Ich arbeite zuverlässig, strukturiert und sorge dafür, dass Ihre
-          Website immer gepflegt, aktuell und professionell aussieht. Sie
-          bekommen jemanden, der Inhalte sauber einpflegt, kleine
-          Layout-Anpassungen übernimmt und technische Details verständlich
-          kommunizieren kann, ohne Chaos, ohne lange Wartezeiten und ohne
-          unnötige Komplexität.
-        </p>
-        <p>
-          Ich bringe die Ruhe, Konzentration und Genauigkeit mit, die
-          Website-Pflege und Content Management täglich brauchen. Und ich lerne
-          neue Systeme schnell und selbstständig.
-        </p>
-      </section>
-
-      <!-- Projekte -->
+      <!-- PROJEKTE -->
       <section id="projects" class="section">
-        <h2>Ausgewählte Webprojekte</h2>
+        <h2 class="reveal">Ausgewählte Webprojekte</h2>
 
         <div class="project-grid">
-          <!-- Projekt 1 – Lüftungsbau Meier -->
-          <article class="project-card">
+          <article class="project-card reveal">
             <h3>Lüftungsbau Meier – Handwerksunternehmen</h3>
             <p class="project-tags">
               Handwerk · One-Page Website · Kontakt & Leistungen
             </p>
             <p>
               Moderne One-Page-Website für ein fiktives Handwerksunternehmen.
-              Klare Struktur, vereinfachte Kontaktsektion, responsives Layout
-              und realistische Umsetzung für Einsteigerkunden.
+              Klare Struktur, vereinfachte Kontaktsektion und responsives
+              Layout.
             </p>
             <div class="project-links">
               <a
                 href="https://pixel-mensch.github.io/lueftungsbau-meier/"
                 target="_blank"
-                rel="noopener noreferrer"
                 >Live-Demo</a
               >
               <a
                 href="https://github.com/Pixel-Mensch/lueftungsbau-meier"
                 target="_blank"
-                rel="noopener noreferrer"
                 >Code auf GitHub</a
               >
             </div>
           </article>
 
-          <!-- Projekt 2 – Physio Vital -->
-          <article class="project-card">
+          <article class="project-card reveal">
             <h3>PhysioVital – Praxiswebsite</h3>
             <p class="project-tags">
               Praxiswebsite · Leistungen · Kontaktformular
             </p>
             <p>
-              Mehrseitige Website für eine fiktive Physiotherapie-Praxis. Fokus
-              auf seriösem Look, medizinischen Leistungen und einer klaren
-              User-Führung.
+              Mehrseitige Website für eine fiktive Physiotherapie-Praxis mit
+              Fokus auf seriöser Struktur.
             </p>
             <div class="project-links">
               <a
                 href="https://pixel-mensch.github.io/physiovital/"
                 target="_blank"
-                rel="noopener noreferrer"
                 >Live-Demo</a
               >
               <a
                 href="https://github.com/Pixel-Mensch/physiovital"
                 target="_blank"
-                rel="noopener noreferrer"
                 >Code auf GitHub</a
               >
             </div>
           </article>
 
-          <!-- Projekt 3 – Bistro Aurora -->
-          <article class="project-card">
+          <article class="project-card reveal">
             <h3>Bistro Aurora – Gastronomie-Landingpage</h3>
-            <p class="project-tags">Landingpage · Mobile First · HTML/CSS</p>
+            <p class="project-tags">Mehrseitig · Mobile First · HTML/CSS</p>
             <p>
-              Mehrseitige Firmenwebsite für ein fiktives Bistro. Emotionales
-              Design, warme Farben, klare Segmentierung und mobile-first Ansatz.
+              Mehrseitige Firmenwebsite mit warmem Farbkonzept und klarem
+              Mobile-first Layout.
             </p>
             <div class="project-links">
               <a
                 href="https://pixel-mensch.github.io/Bistro-Aurora/"
                 target="_blank"
-                rel="noopener noreferrer"
                 >Live-Demo</a
               >
               <a
                 href="https://github.com/Pixel-Mensch/Bistro-Aurora"
                 target="_blank"
-                rel="noopener noreferrer"
                 >Code auf GitHub</a
               >
             </div>
@@ -181,93 +170,117 @@
         </div>
       </section>
 
-      <!-- Skills -->
+      <!-- FÄHIGKEITEN -->
       <section id="skills" class="section">
-        <h2>Fähigkeiten & Schwerpunkte</h2>
+        <h2 class="reveal">Fähigkeiten & Schwerpunkte</h2>
 
         <div class="skills-grid">
-          <!-- Block 1: Web & Content -->
-          <div class="skills-block">
+          <div class="skills-block reveal">
             <h3>Web & Content</h3>
             <ul>
-              <li>HTML5 (mobile-first, responsive)</li>
-              <li>CSS3 (Layout, Design-Strukturen)</li>
-              <li>Landingpages & kleine Firmenwebsites</li>
-              <li>Pflege von Texten, Bildern, Preislisten und PDFs</li>
-              <li>
-                Grundlegende OnPage-SEO (Titel, Beschreibungen, Überschriften)
-              </li>
-              <li>Bildoptimierung und Webkomprimierung</li>
+              <li>HTML5 (mobile-first)</li>
+              <li>CSS3 Layout & Design</li>
+              <li>Landingpages</li>
+              <li>Bild- & Textpflege</li>
+              <li>OnPage-SEO Basics</li>
+              <li>Bild- und Webkomprimierung</li>
             </ul>
           </div>
 
-          <!-- Block 2: Content Management -->
-          <div class="skills-block">
+          <div class="skills-block reveal">
             <h3>Content Management</h3>
             <ul>
-              <li>Umgang mit WYSIWYG-Editoren</li>
-              <li>Navigation, Seitenstrukturen und Menüs pflegen</li>
-              <li>Formulare anlegen, testen und anpassen</li>
-              <li>
-                Content-Pflege für E-Commerce (Artikeltexte, Varianten,
-                Stammdaten)
-              </li>
+              <li>WYSIWYG-Editoren</li>
+              <li>Navigation & Seitenstrukturen</li>
+              <li>Formularpflege</li>
+              <li>E-Commerce Content</li>
             </ul>
           </div>
 
-          <!-- Block 3: Programmierung & Backend -->
-          <div class="skills-block">
-            <h3>Programmierung & Backend</h3>
+          <div class="skills-block reveal">
+            <h3>Programmierung</h3>
             <ul>
-              <li>C# (Grundlagen, OOP, kleine Tools)</li>
-              <li>Java (Grundlagen)</li>
-              <li>PHP (Formularverarbeitung, einfache Logik)</li>
-              <li>JavaScript (DOM-Manipulation, kleine Interaktionen)</li>
-              <li>Grundverständnis für API-Aufrufe und Datenverarbeitung</li>
+              <li>JavaScript (DOM)</li>
+              <li>PHP Basics</li>
+              <li>C# Basics</li>
+              <li>Java Basics</li>
+              <li>API-Basisverständnis</li>
             </ul>
           </div>
 
-          <!-- Block 4: Datenbanken -->
-          <div class="skills-block">
-            <h3>Datenbanken & SQL</h3>
+          <div class="skills-block reveal">
+            <h3>Datenbanken</h3>
             <ul>
-              <li>SQL(Grundlagen)</li>
-              <li>MySQL / MariaDB Grundkenntnisse</li>
-              <li>Basis-Datenbankmodellierung</li>
+              <li>SQL Grundlagen</li>
+              <li>MySQL/MariaDB</li>
+              <li>Tabellenmodellierung</li>
             </ul>
           </div>
 
-          <!-- Block 5: Arbeitsweise & Tools -->
-          <div class="skills-block">
-            <h3>Arbeitsweise & Tools</h3>
+          <div class="skills-block reveal">
+            <h3>Arbeitsweise</h3>
             <ul>
-              <li>Strukturiertes, ruhiges und genaues Arbeiten</li>
-              <li>Sorgfältige Pflege von Stammdaten und Inhalten</li>
-              <li>VS Code</li>
-              <li>Git & GitHub</li>
-              <li>FTP & Webhosting (z.&nbsp;B. Hetzner)</li>
-              <li>Schnelle Einarbeitung in bestehende Systeme</li>
+              <li>Direkt, offen & humorvoll</li>
+              <li>Schnelle Auffassungsgabe</li>
+              <li>Technikaffin</li>
+              <li>Strukturorientiert</li>
+              <li>Zuverlässige Umsetzung</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- Kontakt -->
-      <section id="contact" class="section contact-section">
-        <h2>Kontakt</h2>
+      <!-- TOOLS -->
+      <section id="tools" class="section section-tools">
+        <h2 class="reveal">Tools & Technologien</h2>
+
+        <div class="tools-row reveal">
+          <div class="tool-pill">
+            <span class="tool-icon">&lt;/&gt;</span>HTML & CSS
+          </div>
+          <div class="tool-pill">
+            <span class="tool-icon">🧩</span>JavaScript Basics
+          </div>
+          <div class="tool-pill">
+            <span class="tool-icon">🐙</span>Git & GitHub
+          </div>
+          <div class="tool-pill"><span class="tool-icon">💻</span>VS Code</div>
+          <div class="tool-pill">
+            <span class="tool-icon">⚙️</span>PHP Basics
+          </div>
+          <div class="tool-pill">
+            <span class="tool-icon">🗄️</span>SQL Basics
+          </div>
+          <div class="tool-pill">
+            <span class="tool-icon">🎨</span>Figma Grundlagen
+          </div>
+          <div class="tool-pill">
+            <span class="tool-icon">🌐</span>GitHub Pages Deploy
+          </div>
+        </div>
+      </section>
+
+      <!-- AUSBILDUNG -->
+      <section id="education" class="section reveal">
+        <h2>Ausbildung & Qualifikationen</h2>
         <p>
-          Sie suchen jemanden, der Inhalte sorgfältig pflegt, kleine Änderungen
-          zuverlässig umsetzt und Ihren Online-Auftritt aktuell hält? Ich freue
-          mich über eine Nachricht gern per E-Mail oder Telefon.
+          Ausbildung zum Fachinformatiker für Anwendungsentwicklung – kombiniert
+          mit praktischer Webentwicklung und Content-Pflege.
         </p>
+      </section>
+
+      <!-- KONTAKT -->
+      <section id="contact" class="section contact-section reveal">
+        <h2>Kontakt</h2>
+        <p>Ich freue mich über Anfragen per E-Mail oder Telefon.</p>
 
         <div class="contact-box">
           <p>
             <strong>E-Mail:</strong>
             <a href="mailto:pixelmensch@mail.de">pixelmensch@mail.de</a>
           </p>
-          <p><strong>Telefon:</strong> 0156&nbsp;7973&nbsp;5298</p>
-          <p><strong>Standort:</strong> Deutschland, remote einsetzbar</p>
+          <p><strong>Telefon:</strong> 0156 7973 5298</p>
+          <p><strong>Standort:</strong> Deutschland, remote möglich</p>
         </div>
       </section>
 
@@ -280,8 +293,48 @@
     </div>
 
     <script>
-      // Kleiner Helfer, damit das Jahr im Footer automatisch aktuell bleibt
       document.getElementById("year").textContent = new Date().getFullYear();
+
+      /* Scroll-Reveal */
+      const revealElements = document.querySelectorAll(".reveal");
+      const revealObserver = new IntersectionObserver(
+        (entries, o) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("reveal-visible");
+              o.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+      revealElements.forEach((el) => revealObserver.observe(el));
+
+      /* Header-Schatten */
+      const siteHeader = document.getElementById("site-header");
+      window.addEventListener("scroll", () => {
+        const scroll = window.scrollY || window.pageYOffset;
+        if (scroll > 10) siteHeader.classList.add("scrolled");
+        else siteHeader.classList.remove("scrolled");
+      });
+
+      /* Cursor Halo */
+      const cursorHalo = document.createElement("div");
+      cursorHalo.className = "cursor-halo";
+      document.body.appendChild(cursorHalo);
+
+      document.addEventListener("pointermove", (e) => {
+        cursorHalo.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      });
+
+      document.querySelectorAll("a, button, .btn").forEach((el) => {
+        el.addEventListener("mouseenter", () =>
+          cursorHalo.classList.add("cursor-halo--active")
+        );
+        el.addEventListener("mouseleave", () =>
+          cursorHalo.classList.remove("cursor-halo--active")
+        );
+      });
     </script>
   </body>
 </html>
